@@ -4,7 +4,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template('main.html',titke="Home Page")
+    return render_template('index.html',titke="Home Page")
 
 if __name__=='__main__':
     #Local Development server
